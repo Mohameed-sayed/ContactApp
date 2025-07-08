@@ -1,10 +1,14 @@
-import React from 'react';
+
 import Spline from '@splinetool/react-spline';
+import React from 'react';
 
 export default function App() {
   return (
-    <div style={{ width: '100vw', height: '100vh' }}>
-      <Spline scene="https://prod.spline.design/fXmDFMgVQUL-KY-z/scene.splinecode" />
-    </div>
+    <>
+
+    <h1 className='text-center font-bold text-3xl m-2'>Welcome To our Website</h1>
+      <Spline scene="https://prod.spline.design/Y3hBWLNrksCezWHD/scene.splinecode" />
+
+    </>
   );
 }
