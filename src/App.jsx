@@ -1,23 +1,10 @@
-import './App.css'
 import React from 'react';
-import ContactApp from './components/ContactApp';
-import ToggleMessage from './components/Counter';
+import Spline from '@splinetool/react-spline';
 
-
-function App() {
-
-
+export default function App() {
   return (
-    <div>
-      <ContactApp />
-
-
-      {/* <Welcome name="salma" age={22} message="Thanks" />  */}
-      {/* <Post /> */}
+    <div style={{ width: '100vw', height: '100vh' }}>
+      <Spline scene="https://prod.spline.design/fXmDFMgVQUL-KY-z/scene.splinecode" />
     </div>
-
-
   );
 }
-
-export default App
